@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LKHackathon</string>
+    <string name="link"><a href="https://www.facebook.com/">Facebook</a></string>
 </resources>
