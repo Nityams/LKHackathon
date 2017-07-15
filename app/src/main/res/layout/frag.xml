@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hackmesenpai.com.lkhackathon.HomePage">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1028dp"
+        android:fillViewport="true">
+
+        <GridLayout
+            android:id="@+id/GridLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="10"
+            android:orientation="horizontal"
+            android:layout_marginTop = "@dimen/marginGap"
+            tools:context="com.inducesmile.gridlayouttutorial.MainActivity" >
+            <Space />
+
+            <Button
+                android:layout_marginLeft="@dimen/marginGap"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file1"
+                android:layout_row="2"
+                android:layout_column="0"
+                />
+
+            <Button
+                android:layout_marginLeft="@dimen/marginGap"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file1"
+                />
+
+            <Button
+                android:layout_marginLeft="@dimen/marginGap"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file1"
+                android:layout_row="2"
+                android:layout_column="0"
+                />
+
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="  $1.10          22-bids"
+                />
+
+
+        </GridLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
