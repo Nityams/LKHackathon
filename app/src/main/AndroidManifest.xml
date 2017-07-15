@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="hackmesenpai.com.lkhackathon.LoginActivity" android:theme="@style/AppTheme" />
+        <activity android:name="hackmesenpai.com.lkhackathon.SignupActivity" android:theme="@style/AppTheme" />
+        <activity android:name="hackmesenpai.com.lkhackathon.CreateAuctionActivity" android:theme="@style/AppTheme" />
+        <activity android:name="hackmesenpai.com.lkhackathon.ConfirmAuctionActivity" android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>
