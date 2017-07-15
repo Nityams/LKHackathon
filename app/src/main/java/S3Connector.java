@@ -37,6 +37,9 @@ public class S3Connector {
                 .build();
     }
 
+    // @bucket: bucket on S3, should be constant
+    // @key : S3 file path
+    // @filePath : local path
     public void createImage(String bucket, String key, String filePath) {
 
         try {
