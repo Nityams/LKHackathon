@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:fitsSystemWindows="true">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hackmesenpai.com.myapplication.CreateAuction">
 
     <LinearLayout
         android:orientation="vertical"
@@ -12,81 +12,38 @@
         android:layout_height="wrap_content"
         android:paddingTop="5dp"
         android:paddingLeft="24dp"
-        android:paddingRight="24dp">
+        android:paddingRight="24dp"
+        android:gravity="center">
 
         <ImageView
-            android:id="@+id/create_auction"
-            android:layout_width="match_parent"
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/file2"
+            tools:layout_editor_absoluteX="244dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/create_auction" />
-
-        <!-- Email Label -->
-        <ImageButton
-            android:id="@+id/add_image"
-            android:layout_width="match_parent"
+            android:hint="Item name"/>
+        <EditText
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/btn_star" />
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
+            android:hint="Item DIscription"/>
+        <EditText
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp">
-
-            <EditText
-                android:id="@+id/item_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Enter Item Name"
-                android:inputType="text" />
-
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp">
-
-            <EditText android:id="@+id/item_description"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="Enter Item Description" />
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp">
-
-            <EditText android:id="@+id/end_price"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="Enter an ending price" />
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp">
-
-            <EditText
-                android:id="@+id/end_date"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Enter an ending date"
-                android:inputType="date" />
-        </android.support.design.widget.TextInputLayout>
+            android:hint="asking price"/>
 
         <Button
-            android:id="@+id/create_button"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create Auction" />
+            android:text="Publish"
+            android:background="@color/light_green"
+            android:onClick="publish"
+            />
     </LinearLayout>
 
     <Button
@@ -110,6 +67,7 @@
         android:layout_marginBottom="@dimen/marginGap"
         android:onClick="upload"
 
+
         />
     <Button
         android:layout_width="@dimen/bottomIcon"
@@ -122,4 +80,6 @@
         android:onClick="userProfile"
         />
 
-</ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

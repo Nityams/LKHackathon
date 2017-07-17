@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="hackmesenpai.com.myapplication.UploadDrawer"
+    tools:showIn="@layout/activity_upload_drawer">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="10"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_marginLeft="@dimen/marginGap"
+            android:layout_height="@dimen/pic_size"
+            android:layout_width="@dimen/pic_size"
+            android:background="@drawable/file1"
+            android:layout_row="0"
+            android:layout_column="0"
+            />
+
+        <Button
+            android:layout_marginLeft="@dimen/marginGap"
+            android:layout_height="@dimen/pic_size"
+            android:layout_width="@dimen/pic_size"
+            android:background="@drawable/file3"
+            android:layout_row="0"
+            android:layout_column="1"
+            />
+
+        <Button
+        android:layout_marginLeft="@dimen/marginGap"
+        android:layout_height="@dimen/pic_size"
+        android:layout_width="@dimen/pic_size"
+        android:background="@drawable/file5"
+        android:layout_row="1"
+        android:layout_column="0"
+        />
+
+        <Button
+            android:layout_marginLeft="@dimen/marginGap"
+            android:layout_height="@dimen/pic_size"
+            android:layout_width="@dimen/pic_size"
+            android:background="@drawable/file2"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:onClick="upload"
+            />
+        <Button
+            android:layout_marginLeft="@dimen/marginGap"
+            android:layout_height="@dimen/pic_size"
+            android:layout_width="@dimen/pic_size"
+            android:background="@drawable/file6"
+            android:layout_row="2"
+            android:layout_column="0"
+            />
+
+        <Button
+            android:layout_marginLeft="@dimen/marginGap"
+            android:layout_height="@dimen/pic_size"
+            android:layout_width="@dimen/pic_size"
+            android:background="@drawable/file9"
+            android:layout_row="2"
+            android:layout_column="1"
+            />
+
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

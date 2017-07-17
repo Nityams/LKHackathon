@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hackmesenpai.com.myapplication.Homepage">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:layout_marginTop="@dimen/marginGaps"
+        android:fillViewport="true">
+
+        <GridLayout
+            android:id="@+id/GridLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:columnCount="2"
+            android:rowCount="10"
+            android:orientation="horizontal"
+            tools:context="com.inducesmile.gridlayouttutorial.MainActivity" >
+            <Space />
+
+            <Button
+                android:layout_marginLeft="@dimen/marginGap"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file1"
+                android:layout_row="0"
+                android:layout_column="0"
+                />
+
+            <Button
+                android:layout_marginLeft="@dimen/marginGap"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file3"
+                android:layout_row="0"
+                android:layout_column="1"
+                />
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="$1.10 ----------  7 bids"
+                android:layout_row="1"
+                android:layout_column="0"
+                />
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="$3.10 ----------  2 bids"
+                android:layout_row="1"
+                android:layout_column="1"
+                />
+
+            <Button
+                android:layout_marginTop="@dimen/marginGaps"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file2"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:onClick="bidStart"
+                />
+            <Button
+                android:layout_marginTop="@dimen/marginGaps"
+                android:layout_marginLeft="@dimen/marginGaps"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file4"
+                android:layout_row="2"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="$5.23 ----------  9 bids"
+                android:layout_row="3"
+                android:layout_column="0"
+                />
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="$31.00 ----------  2 bids"
+                android:layout_row="3"
+                android:layout_column="1"
+                />
+
+            <Button
+                android:layout_marginTop="@dimen/marginGaps"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file5"
+                android:layout_row="4"
+                android:layout_column="0"
+                />
+            <Button
+                android:layout_marginTop="@dimen/marginGaps"
+                android:layout_marginLeft="@dimen/marginGaps"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file6"
+                android:layout_row="4"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="$1.10 ----------  2 bids"
+                android:layout_row="5"
+                android:layout_column="0"
+                />
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="$30.10 ----------  2 bids"
+                android:layout_row="5"
+                android:layout_column="1"
+                />
+
+            <Button
+                android:layout_marginTop="@dimen/marginGaps"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file7"
+                android:layout_row="6"
+                android:layout_column="0"
+                />
+            <Button
+                android:layout_marginTop="@dimen/marginGaps"
+                android:layout_marginLeft="@dimen/marginGaps"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file8"
+                android:layout_row="6"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="$12.10 ----------  2 bids"
+                android:layout_row="7"
+                android:layout_column="0"
+                />
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="$21.10 ----------   9 bids"
+                android:layout_row="7"
+                android:layout_column="1"
+                />
+
+            <Button
+                android:layout_marginTop="@dimen/marginGaps"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file9"
+                android:layout_row="8"
+                android:layout_column="0"
+                />
+            <Button
+                android:layout_marginTop="@dimen/marginGaps"
+                android:layout_marginLeft="@dimen/marginGaps"
+                android:layout_height="@dimen/pic_size"
+                android:layout_width="@dimen/pic_size"
+                android:background="@drawable/file3"
+                android:layout_row="8"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="$6.66 ----------  6 bids"
+                android:layout_row="9"
+                android:layout_column="0"
+                />
+            <TextView
+                android:textSize="@dimen/text_size"
+                android:layout_marginLeft="@dimen/marginGap"
+                android:text="$1.21 ----------  9 bids"
+                android:layout_row="9"
+                android:layout_column="1"
+                />
+        </GridLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="@dimen/bottomIcon"
+        android:layout_height="@dimen/bottomIcon"
+        android:background="@drawable/home_copy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="@dimen/marginGap"
+        android:layout_marginLeft="10dp"
+        android:onClick="homePage"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/bottomIcon"
+        android:layout_height="@dimen/bottomIcon"
+        android:background="@drawable/cloud_copy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="@dimen/marginGap"
+        android:onClick="upload"
+
+        />
+    <Button
+        android:layout_width="@dimen/bottomIcon"
+        android:layout_height="@dimen/bottomIcon"
+        android:background="@drawable/user_copy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="@dimen/marginGap"
+        android:layout_marginRight="10dp"
+        android:onClick="userProfile"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hackmesenpai.com.lkhackathon.HomePage">
+    tools:context="hackmesenpai.com.myapplication.Profile">
 
     <Button
         android:id="@+id/listing"
@@ -43,7 +43,8 @@
         android:id="@+id/imageView"
         android:layout_width="130dp"
         android:layout_height="112dp"
-        app:srcCompat="@mipmap/ic_launcher_round"
+        app:srcCompat="@drawable/logo"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -65,22 +66,22 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintVertical_bias="0.934" />
 
-
     <Button
         android:layout_width="@dimen/bottomIcon"
         android:layout_height="@dimen/bottomIcon"
-        android:background="@drawable/home"
+        android:background="@drawable/home_copy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginBottom="@dimen/marginGap"
         android:layout_marginLeft="10dp"
         android:onClick="homePage"
+
         />
 
     <Button
         android:layout_width="@dimen/bottomIcon"
         android:layout_height="@dimen/bottomIcon"
-        android:background="@drawable/cloud"
+        android:background="@drawable/cloud_copy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -91,11 +92,14 @@
     <Button
         android:layout_width="@dimen/bottomIcon"
         android:layout_height="@dimen/bottomIcon"
-        android:background="@drawable/user"
+        android:background="@drawable/user_copy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="@dimen/marginGap"
         android:layout_marginRight="10dp"
         android:onClick="userProfile"
         />
+
+
+
 </android.support.constraint.ConstraintLayout>
