@@ -62,4 +62,22 @@ public class CreateAuctionActivity extends AppCompatActivity {
         // Disable going back to the MainActivity
         moveTaskToBack(true);
     }
+
+    public void upload(View view) {
+        System.out.println("Uploading!!!!!!");
+        Intent intent = new Intent(this, CreateAuctionActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void userProfile(View view) {
+        Intent intent = new Intent(this, Profile.class);
+        startActivity(intent);
+        finish();
+    }
+    public void homePage(View view){
+        Intent intent = new Intent(this, HomePage.class);
+        startActivity(intent);
+        finish();
+    }
 }
