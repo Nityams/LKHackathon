@@ -114,8 +114,8 @@ public class SQLConnector {
         //SQLConnector test = new SQLConnector("src/main/resources/credentials", Regions.US_WEST_1);
 
         SQLConnector tester = new SQLConnector(
-                "auctiondata123.cy4zo813ahh8.us-east-1.rds.amazonaws.com",
-                "3310",
+                "#key",
+                "PortID",
                 "AuctionSwaggerDB",
                 "root",
                 "npcompete",
