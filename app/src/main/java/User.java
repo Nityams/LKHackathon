@@ -21,8 +21,8 @@ public class User {
         ID = Integer.parseInt(UUID.randomUUID().toString());
 
         sql = new SQLConnector(
-                "auctiondata123.cy4zo813ahh8.us-east-1.rds.amazonaws.com",
-                "3310",
+                "#urAWSHERE",
+                "Port#",
                 "AuctionSwaggerDB",
                 "root",
                 "npcompete",
