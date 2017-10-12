@@ -29,8 +29,8 @@ public class Bid {
         bidTimestamp = 0;
 
         sql = new SQLConnector(
-                "auctiondata123.cy4zo813ahh8.us-east-1.rds.amazonaws.com",
-                "3310",
+                "###",
+                "###",
                 "AuctionSwaggerDB",
                 "root",
                 "npcompete",
@@ -47,8 +47,8 @@ public class Bid {
         this.bidTimestamp = bidTimestamp;
 
         sql = new SQLConnector(
-                "auctiondata123.cy4zo813ahh8.us-east-1.rds.amazonaws.com",
-                "3310",
+                "###",
+                "###",
                 "AuctionSwaggerDB",
                 "root",
                 "npcompete",
